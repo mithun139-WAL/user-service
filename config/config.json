@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "alpha",
+    "password": "Alpha@1398",
+    "database": "apim_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": true,
+    "port": 5432
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
